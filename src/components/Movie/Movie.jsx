@@ -25,7 +25,7 @@ export default function Movie({ index, title, overview }) {
           gap: 0.5em;
           grid-template-columns: auto 1fr;
           grid-template-rows: min-content min-content;
-          border: 2px solid var(--primary-text);
+          border: 2px solid var(--secondary-text);
           border-radius: 0.5em;
           width: 90%;
         }

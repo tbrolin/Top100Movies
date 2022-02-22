@@ -17,7 +17,7 @@ function App() {
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
         body {
-          --primary-text: rgb(255 255 255 / 87%);
+          --primary-text: #ff6700;
           --secondary-text: #ff6700;
           background-color: #121212;
           color: var(--primary-text);

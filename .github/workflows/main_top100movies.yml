@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '16.x'
 
-      - name: npm install, build, and test
+      - name: yarn install, build, and test
         run: |
           yarn install
           yarn build
@@ -30,7 +30,19 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: .
+          path: ./build
+      
+      - name: Upload package.json
+        uses: actions/upload-artifact@v2
+        with:
+          name: node-app
+          path: ./package.json
+      
+      - name: Upload server code
+        uses: actions/upload-artifact@v2
+        with:
+          name: node-app
+          path: ./server
 
   deploy:
     runs-on: ubuntu-latest

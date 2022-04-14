@@ -129,8 +129,8 @@
     "xo": "^0.48.0"
   },
   "scripts": {
-    "start": "(trap 'kill 0' EXIT; yarn server & yarn front)",
-    "front": "node scripts/start.js",
+    "start": "node scripts/start.js",
+    "dev": "node scripts/dev.js",
     "server": "node ./server/graphql.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"

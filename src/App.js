@@ -3,7 +3,7 @@ import Page from './components/Page'
 import PageFoot from './components/PageFoot'
 
 const client = createClient({
-  url: 'http://localhost:4000/graphql',
+  url: `https://${location.host}/graphql`,
 })
 
 function App() {

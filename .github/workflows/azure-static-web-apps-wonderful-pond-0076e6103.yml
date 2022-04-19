@@ -32,7 +32,7 @@ jobs:
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
-          API_KEY: ${{ secrets.API_KEY }}
+          GQL_URL: ${{ secrets.GQL_URL }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'

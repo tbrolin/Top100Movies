@@ -2,8 +2,10 @@ import { createClient, Provider } from 'urql'
 import Page from './components/Page'
 import PageFoot from './components/PageFoot'
 
+const GQL_URL = process.env.GQL_URL || `https://${location.host}/graphql`
+
 const client = createClient({
-  url: `https://${location.host}/graphql`,
+  url: GQL_URL,
 })
 
 function App() {

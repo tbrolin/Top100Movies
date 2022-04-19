@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/51f93450-9ca7-4c5d-9483-d6573b1fabfd/resourceGroups/top100movies/providers/Microsoft.Web/sites/top100Movies",
+  "appService.deploySubpath": "."
+}

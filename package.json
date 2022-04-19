@@ -124,6 +124,7 @@
     "eslint-config-xo-react": "^0.26.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "graphql": "^16.3.0",
     "xo": "^0.48.0"
   },
   "scripts": {
